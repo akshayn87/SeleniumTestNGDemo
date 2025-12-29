@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Automation" verbose="1">
+    <test name="Smoke Test">
+        <classes>
+            <class name="SeleniumTutorials_Arun.Basic21_TestNG2">
+                <methods>
+                    <include name="test1"></include>
+                    <exclude name="test1"></exclude>
+
+                </methods>
+            </class>
+        </classes>
+        <!--class cagirdim -->
+    </test>
+</suite>
