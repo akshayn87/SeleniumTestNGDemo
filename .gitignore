@@ -1,4 +1,6 @@
 target/
-test-output/
+*.iml
 .idea/
 .vscode/
+test-output/
+*.log
